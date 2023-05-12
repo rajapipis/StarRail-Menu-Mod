@@ -4,3 +4,8 @@ A star rail menu mod for windows,credits by z4ee..thank you z4ee..This repositor
 if you got banned then make a issue,if you have solution then give solution in issue or discord
 # Link Discord
 discord: https://discord.gg/YYtWam5e6g
+
+# Screenshot
+
+
+![cmd cit](https://github.com/rajapipis/Star-rail-menu-mod/assets/133135016/fd69b25b-154c-4cb0-8b55-1f9a7aa0ab4a)
