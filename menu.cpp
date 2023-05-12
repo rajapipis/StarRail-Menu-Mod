@@ -110,11 +110,9 @@ namespace menu {
 			}
 
 			if (GetAsyncKeyState(VK_CAPITAL)) {
-
 				keybd_event(VK_SPACE, 0, 0, 0);
-				Sleep(1000);
+				Sleep(100);
 				keybd_event(VK_SPACE, 0, KEYEVENTF_KEYUP, 0);
-				while (true);
 			}
 
 			Sleep(500);
