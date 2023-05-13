@@ -1,6 +1,5 @@
-<h1 align="center">Getting Started</h1>
+<h1 align="center">Star Rail Menu Mod</h1>
 
-# Star-rail-menu-mod
 - A simple mod menu with hotkeys and a lot of customizability for an anime waifu game.
 - if you want any help, make an issue or join the [discord server](https://discord.gg/ygsTSDRyFq)
 - Discord: https://discord.gg/ygsTSDRyFq
