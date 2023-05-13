@@ -6,4 +6,5 @@ namespace globals {
     bool blind = 0;
     bool fps_unlock = 0;
     bool auto_battle = 0;
+    bool auto_dialogue = 0;
 }
