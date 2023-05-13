@@ -7,17 +7,6 @@ if you want any help, make an issue or join the [discord server](https://discord
 # Link Discord
 discord: https://discord.gg/ygsTSDRyFq
 
-
-
-## Stable Release
-1. Head over to the [releases page](https://github.com/b-e-y/StarRail-Menu-Mod/releases/tag/Release)
-2. Download the latest DLL file
-
-### Usage
-1. Ensure that `star_rail.dll` is in the same folder as the `injector.exe`.
-2. Run `injector.exe` and set it to `auto`.
-3. Start the game, if it crashes restart and re-inject again!
-
 <h1 align="center">Features</h1>
 
 #### General
@@ -38,6 +27,14 @@ discord: https://discord.gg/ygsTSDRyFq
 - Peeking
 - FPS Unlock
 
+### Usage
+1. Ensure that `star_rail.dll` is in the same folder as the `injector.exe`.
+2. Run `injector.exe` and set it to `auto`.
+3. Start the game, if it crashes restart and re-inject again!
+
+## Stable Release
+1. Head over to the [releases page](https://github.com/b-e-y/StarRail-Menu-Mod/releases/tag/Release)
+2. Download the latest DLL file
 
 <h1 align="center">Bugs</h1>
 
