@@ -1,15 +1,13 @@
 <h1 align="center">Getting Started</h1>
 
 # Star-rail-menu-mod
-A simple mod menu with hotkeys and a lot of customizability for an anime waifu game
+A simple mod menu with hotkeys and a lot of customizability for an anime waifu game.
 if you want any help, make an issue or join the [discord server](https://discord.gg/ygsTSDRyFq)
 
 # Link Discord
 discord: https://discord.gg/ygsTSDRyFq
 
-<h1 align="center">Screenshot</h1>
 
-![cmd cit](https://github.com/rajapipis/Star-rail-menu-mod/assets/133135016/fd69b25b-154c-4cb0-8b55-1f9a7aa0ab4a)
 
 ## Stable Release
 1. Head over to the [releases page](https://github.com/b-e-y/StarRail-Menu-Mod/releases/tag/Release)
@@ -66,12 +64,6 @@ Welcome to the short explanation for bug reporting
 Open an [issue](https://github.com/b-e-y/StarRail-Menu-Mod/issues) with the title of the suggestion you want to make.
 In the description, make sure it is **descriptive enough** so our devs can understand what you want and how you want it.  
 
-# Star-rail-menu-mod
-
-
-if you got banned then make a issue,if you have solution then give solution in issue,discussions or discord
-# Link Discord
-discord: https://discord.gg/ygsTSDRyFq
 
 <h1 align="center">Screenshot</h1>
 
