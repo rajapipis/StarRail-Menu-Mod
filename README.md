@@ -25,9 +25,8 @@
 - FPS Unlock
 
 ### Usage
-1. Ensure that `star_rail.dll` is in the same folder as the `injector.exe`.
-2. Run `injector.exe` and set it to `auto`.
-3. Start the game, if it crashes restart and re-inject again!
+1. Auto inject the bypass to StarRail.exe
+2. Start the game, if it crashes restart and re-inject again!
 
 ## Stable Release
 1. Head over to the [releases page](https://github.com/b-e-y/StarRail-Menu-Mod/releases/tag/Release)
