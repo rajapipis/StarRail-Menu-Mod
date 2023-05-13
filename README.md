@@ -7,18 +7,18 @@
 ## Features
 
 #### General
-- Protection Bypass
-- External Mod Menu
+- Protection Bypass (Anti cheat bypass credits to Z4ee)
+- Mod Menu UI
 - Hotkeys
 - Notifications
 
 #### Player
-- Speed Hack
+- Speed Hack (Dialog/Scene/World Speed)
 
 #### World
 - Auto Dialog
 - Auto Battle Unlock
-- Blind Enemies
+- Blind Enemies (Enemy No Aggro)
 
 #### Visuals 
 - Peeking
