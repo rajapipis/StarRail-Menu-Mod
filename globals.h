@@ -6,4 +6,5 @@ namespace globals {
     extern bool blind;
     extern bool fps_unlock;
     extern bool auto_battle;
+    extern bool auto_dialogue;
 }
