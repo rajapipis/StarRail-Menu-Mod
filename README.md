@@ -4,7 +4,7 @@
 - if you want any help, make an issue or join the [discord server](https://discord.gg/ygsTSDRyFq)
 - Discord: https://discord.gg/ygsTSDRyFq
 
-<h1 align="center">Features</h1>
+## Features
 
 #### General
 - Protection Bypass
