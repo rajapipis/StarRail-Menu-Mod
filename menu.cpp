@@ -12,10 +12,11 @@
 
 using namespace globals;
 
+
 namespace menu {
 
 	static float speed = 1.f;
-
+	static HWND window = 0;
 	__int64 game_assembly = 0;
 	__int64 unity_player = 0;
 
@@ -28,8 +29,12 @@ namespace menu {
 	}
 
 	void set_speed(float speed) {
-		if (hooks::game::get_currect_phase() == RPG_BATTLE) {
-			set_speed_battle(speed * 5);
+		if (auto_dialogue) {//new 2
+			set_speed_battle(1.f);
+			set_speed_global(10.f);
+		}
+		else if (hooks::game::get_currect_phase() == RPG_BATTLE) {
+			set_speed_battle(5.f);//sus
 			set_speed_global(1.f);
 		}
 		else {
@@ -47,10 +52,12 @@ namespace menu {
 		}
 	}
 
+
 	void cheat_thread() {
 
 		while (!game_assembly) game_assembly = reinterpret_cast<uint64_t>(GetModuleHandleA("gameassembly.dll"));
 		while (!unity_player) unity_player = reinterpret_cast<uint64_t>(GetModuleHandleA("unityplayer.dll"));
+		
 
 		do
 		{
@@ -110,17 +117,29 @@ namespace menu {
 			}
 
 			if (GetAsyncKeyState(VK_CAPITAL)) {
-				keybd_event(VK_SPACE, 0, 0, 0);
-				Sleep(100);
-				keybd_event(VK_SPACE, 0, KEYEVENTF_KEYUP, 0);
+
+				auto_dialogue = 1;//new 2
+
+				if (GetForegroundWindow() == window) {
+					keybd_event(VK_SPACE, 0, 0, 0);
+					Sleep(20);//100 new2
+					keybd_event(VK_SPACE, 0, KEYEVENTF_KEYUP, 0);
+
+				}
+			}
+			else {
+				auto_dialogue = 0;
 			}
 
-			Sleep(500);
+			Sleep(16);//sus//new 2
 
 		} while (true);
+
 	}
 
 	void menu() {
+
+		while (!window) window = FindWindowA("UnityWndClass", NULL);//new 2
 
 		Sleep(15000);
 
