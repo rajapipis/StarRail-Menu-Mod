@@ -3,7 +3,10 @@ A star rail menu mod for windows,credits by z4ee..thank you z4ee..This repositor
 
 if you got banned then make a issue,if you have solution then give solution in issue,discussions or discord
 # Link Discord
-discord: https://discord.gg/YYtWam5e6g
+<p align="center">
+	<a href="https://discord.gg/YYtWam5e6g"><img src="https://img.shields.io/discord/1106494804491259984?label=Discord&logo=discord&style=for-the-badge&color=blueviolet"></a>
+</p>
+Discord: https://discord.gg/YYtWam5e6g
 
 # Screenshot
 
