@@ -4,7 +4,7 @@ BOOL DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)
 {
 	if (fdwReason == DLL_PROCESS_ATTACH) {
 
-		auto base_address = reinterpret_cast<uint64_t>(GetModuleHandleA("starrailbase.dll"));
+		auto base_address = reinterpret_cast<uint64_t>(GetModuleHandleA("starrailbase.dll")); //version 1.0.5
 
 		utils::write<uint32_t>(base_address + 0xFCDC0, 0xCCC3C031);
 		utils::write<uint8_t>(base_address + 0xF9940, 0xC3);
